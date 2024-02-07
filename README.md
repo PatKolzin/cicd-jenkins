@@ -25,7 +25,7 @@
 4. Создать Multibranch Pipeline на запуск `Jenkinsfile` из репозитория.
 ![7](https://github.com/PatKolzin/cicd-jenkins/assets/75835363/4fde06d7-0739-4f7c-8a80-aca50bb46520)
 
-5. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
+5. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](https://github.com/netology-code/mnt-homeworks/tree/MNT-video/09-ci-04-jenkins/pipeline).
 ![8](https://github.com/PatKolzin/cicd-jenkins/assets/75835363/7226032a-5555-4bab-abe6-5123a37851c2)
 
 6. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
